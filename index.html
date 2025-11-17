@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>我的個人簡歷</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container">
+      <h1 class="brand">你的姓名</h1>
+      <button id="themeToggle" aria-label="切換主題">🌓</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="container">
+      <h2>關於我</h2>
+      <div class="about-wrap">
+        <img src="https://via.placeholder.com/160" alt="個人照片" class="avatar" />
+        <div>
+          <p>聯絡方式：<a href="mailto:you@example.com">you@example.com</a></p>
+          <p>簡短自我介紹...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>技能</h2>
+      <ul class="tag-cloud">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li>
+      </ul>
+      <!-- 或進度條樣式：留給學生擴充 -->
+    </section>
+
+    <section id="experience" class="container">
+      <h2>工作經歷</h2>
+      <ol class="timeline">
+        <li><time>2023–至今</time> 前端工程師 @ 公司A</li>
+        <li><time>2021–2023</time> 實習生 @ 公司B</li>
+      </ol>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>作品集</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://via.placeholder.com/600x360" alt="專案縮圖" loading="lazy" />
+          <h3>專案名稱</h3>
+          <p>專案描述...</p>
+          <a href="#" target="_blank" rel="noopener">查看</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>聯絡我</h2>
+      <!-- 留給學生用 EmailJS 或表單擴充 -->
+      <p>email: you@example.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Your Name</div>
+  </footer>
+
+  <script src="./main.js" defer></script>
+</body>
+</html>
